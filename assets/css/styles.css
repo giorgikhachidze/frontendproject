@@ -21,6 +21,10 @@ header {
     border-bottom: 1px solid #dedede;
 }
 
+.navbar {
+    padding: .7rem 1rem;
+}
+
 .bg-navbar {
     background-color: #f9f9f9;
 }
@@ -53,14 +57,14 @@ header {
 }
 
 .navbar-nav .active {
-    background-color: #6610f2;
+    background-color: #7000a0;
     border-radius: .2rem;
 }
 
 .navbar-nav .nav-item:hover .nav-link,
 .navbar-nav .nav-item:focus .nav-link,
 .navbar-nav .nav-item:active .nav-link {
-    background-color: #6610f2;
+    background-color: #7000a0;
     border-radius: .2rem;
     color: #e4e4e4;
     transition: all ease-in-out .4s;
@@ -74,7 +78,7 @@ header {
 }
 
 .section-one-title-last {
-    color: #6610f2;
+    color: #7000a0;
 }
 
 .section-one-text {
@@ -84,4 +88,68 @@ header {
 .section-one-text::first-letter {
     font-size: 1.25rem;
     font-family: 'BPG Banner Caps', sans-serif;
+}
+
+.section-one-box-icon {
+    background-color: #383838;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.section-one-box-title {
+    font-family: 'BPG Banner Caps', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.section-one-box-text {
+    font-size: .9rem;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'BPG Banner Caps', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border-radius: .2rem;
+}
+
+.btn-indigo {
+    color: #8a8a8a;
+    background-color: #f9f9f9;
+    border-color: #dedede;
+}
+  
+.btn-indigo:hover {
+    color: #e3e3e3;
+    background-color: #7000a0;
+    border-color: #7000a0;
+}
+  
+.btn-indigo:focus, .btn-indigo.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.15);
+}
+  
+.btn-indigo.disabled, .btn-indigo:disabled {
+    color: #8a8a8a;
+    background-color: #f9f9f9;
+    border-color: #dedede;
+}
+  
+.btn-indigo:not(:disabled):not(.disabled):active, .btn-indigo:not(:disabled):not(.disabled).active,
+.show > .btn-indigo.dropdown-toggle {
+    color: #e3e3e3;
+    background-color: #7000a0;
+    border-color: #7000a0;
+}
+  
+.btn-indigo:not(:disabled):not(.disabled):active:focus, .btn-indigo:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-indigo.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(111, 104, 242, 0.5);
+}
+
+/* Background Colors */
+.bg-indigo {
+    background-color: #7000a0;
 }
