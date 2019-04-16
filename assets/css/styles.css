@@ -71,6 +71,29 @@ header {
 }
 
 /* Section one */
+.section-one {
+    position: relative;
+    background-image: url('../images/section-one-bg.jpg');
+    background-position: center right;
+    background-size: cover;
+    padding: 3rem;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+
+.section-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.section-one-overlay {
+    background-color: #ffffff;
+    opacity: 0.75;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
 .section-one-title {
     font-weight: bolder;
     font-family: 'BPG Banner Caps', sans-serif;
@@ -105,6 +128,48 @@ header {
 
 .section-one-box-text {
     font-size: .9rem;
+}
+
+/* Section two */
+.section-two {
+    background-color: #383838;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.section-two-title {
+    color: #f9f9f9;
+    font-weight: bolder;
+    font-family: 'BPG Banner Caps', sans-serif;
+    text-align: center;
+}
+
+.section-two-title-last {
+    color: #b300ff;
+}
+
+.section-two-text {
+    color: #8a8a8a;
+    text-align: center;
+}
+
+.section-two-image img {
+    width: 100%;
+}
+
+.section-two-nav-title {
+    font-size: 1rem;
+    color: #f9f9f9;
+    font-weight: bolder;
+    font-family: 'BPG Banner Caps', sans-serif;
+}
+
+.section-two-nav-text {
+    color: #8a8a8a;
+}
+
+/* Section three */
+.section-three {
+    padding: 3rem;
 }
 
 /* Buttons */
@@ -149,7 +214,15 @@ header {
     box-shadow: 0 0 0 0.2rem rgba(111, 104, 242, 0.5);
 }
 
-/* Background Colors */
+/* Background colors */
 .bg-indigo {
     background-color: #7000a0;
+}
+
+/* Font colors */
+.text-indigo {
+    color: #7000a0;
+}
+.text-indigo-light {
+    color: #b300ff;
 }
