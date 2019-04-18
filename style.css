@@ -1,0 +1,25 @@
+.btn-fb
+  background-color: #3b5998 !important
+  color: #fff
+
+  .btn-fb:hover {
+    background-color: #4264aa;
+    color: #fff; }
+  .btn-fb:focus, .btn-fb.focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+  .btn-fb:focus, .btn-fb:active, .btn-fb.active {
+    background-color: #1e2e4f; }
+  .btn-fb.dropdown-toggle {
+    background-color: #3b5998 !important; }
+    .btn-fb.dropdown-toggle:hover, .btn-fb.dropdown-toggle:focus {
+      background-color: #4264aa !important; }
+  .btn-fb:not([disabled]):not(.disabled):active, .btn-fb:not([disabled]):not(.disabled).active,
+  .show > .btn-fb.dropdown-toggle {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: #1e2e4f !important; }
+  .btn-fb:not([disabled]):not(.disabled):active:focus, .btn-fb:not([disabled]):not(.disabled).active:focus,
+  .show > .btn-fb.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
